@@ -1,0 +1,18 @@
+/* Tablet */
+@media screen and (max-width: 48rem) {
+  .list .list-item {
+    display: none;
+  }
+
+  .hero-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .hero .content {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+}

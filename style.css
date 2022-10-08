@@ -6,21 +6,18 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  background-color: #2B2922;
-  font-family: "Roboto", sans-serif;
+  background-color: #2b2922;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
 }
 
 .container {
-  margin: 40px 50px;
+  margin: 4rem 5rem;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
+.navbar,
 .list {
   display: flex;
   align-items: center;
@@ -29,12 +26,13 @@ body {
 
 .list li {
   list-style-type: none;
-  padding: 10px 30px;
+  padding: 1rem 3rem;
 }
 
 .list-item {
   color: #fff;
   font-weight: 100;
+  font-size: 1.6rem;
 }
 
 .list-item:first-child {
@@ -42,41 +40,40 @@ body {
 }
 
 .button-small {
-  border: 1px solid #A08F36;
-  color: #A08F36;
-  background-color: #2B2922;
-  font-size: 18x;
+  border: 1px solid #a08f36;
+  color: #a08f36;
+  background-color: #2b2922;
+  font-size: 1.8rem;
   font-weight: 700;
-  padding: 15px 30px;
-  border-radius: 12px;
+  padding: 1.5rem 3rem;
+  border-radius: 1.2rem;
 }
 
 .hero {
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 .hero-heading {
-  font-size: 80px;
-  width: 600px;
+  font-size: 8rem;
+  width: 40%;
   color: #fff;
   float: left;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .content {
   float: right;
-  width: 400px;
+  width: 40%;
   color: #fff;
-  margin-top: 50px;
-  margin-right: 100px;
+  margin-top: 5rem;
+  margin-right: 10rem;
   text-align: left;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 100;
   line-height: 1.6;
 }
 
 .bottom img {
-  margin-top: 28px;
-  height: 350px;
+  margin-top: 2.8rem;
   width: 100%;
 }
